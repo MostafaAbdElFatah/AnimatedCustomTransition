@@ -14,32 +14,24 @@ class FirstVC: UIViewController {
     @IBOutlet weak var btn: UIButton!
     @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var searchView: UIView!
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         menuBtn.layer.cornerRadius = menuBtn.bounds.size.height / 2
         
+        imageView.hero.id = "imageView"
+        searchView.hero.id = "searchView"
         searchView.add(gesture: Gesture.tap(1)) { (view) in
-            print("View tapped")
+            let vc = ThreeVC.instance
+            vc.modalPresentationStyle = .fullScreen
+            self.present(vc, animated: true)
         }
-        
-       
-//        _ = btn
-//            .title("Mostafa")
-//            .titleColor( .white)
-//            .background( .orange)
-//            .cornerRadius( 10)
     }
     
     @IBAction func menuBtnTapped(_ sender: UIButton) {
-//        let secondVC = SecondVC.instance
-//        secondVC.transitioningDelegate = self
-//        secondVC.modalPresentationStyle = .custom
-//
-//        presentationAnimator.supportView = navigationController!.navigationBar
-//        presentationAnimator.presentButton = menuBtn
-//        present(secondVC, animated: true, completion: nil)
+       
     }
     
     // with CircularTransition animation

@@ -20,6 +20,7 @@
 		06E5E80B265833F6003970CE /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E80A265833F6003970CE /* Hero */; };
 		06E5E80C265833F6003970CE /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E80A265833F6003970CE /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		06E5E812265837C4003970CE /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E811265837C4003970CE /* SparkUI */; };
+		06E5E81626583E15003970CE /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5E81526583E15003970CE /* ThreeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		06954C452657F57500B59AB7 /* AnimatedCustomTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedCustomTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06954C492657F57500B59AB7 /* AnimatedCustomTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCustomTransitionUITests.swift; sourceTree = "<group>"; };
 		06954C4B2657F57500B59AB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E5E81526583E15003970CE /* ThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				06954C2D2657F57300B59AB7 /* Main.storyboard */,
 				06954C2B2657F57300B59AB7 /* FirstVC.swift */,
 				0677C6132657F97200298F10 /* SecondVC.swift */,
+				06E5E81526583E15003970CE /* ThreeVC.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0677C61A2657FACC00298F10 /* AnimationManager.swift in Sources */,
+				06E5E81626583E15003970CE /* ThreeVC.swift in Sources */,
 				06954C2C2657F57300B59AB7 /* FirstVC.swift in Sources */,
 				06954C282657F57300B59AB7 /* AppDelegate.swift in Sources */,
 				0677C6142657F97200298F10 /* SecondVC.swift in Sources */,
