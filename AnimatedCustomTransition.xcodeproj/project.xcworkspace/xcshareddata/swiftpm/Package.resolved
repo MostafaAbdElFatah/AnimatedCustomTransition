@@ -1,0 +1,97 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BetterCodable",
+        "repositoryURL": "https://github.com/marksands/BetterCodable.git",
+        "state": {
+          "branch": null,
+          "revision": "99133960f4b07bedf16034ae47555905aaa40b9c",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "Hero",
+        "repositoryURL": "https://github.com/HeroTransitions/Hero.git",
+        "state": {
+          "branch": null,
+          "revision": "efa709686035831b23b7bf58f652b0c4b892aa1d",
+          "version": "1.6.1"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher.git",
+        "state": {
+          "branch": null,
+          "revision": "44450a8f564d7c0165f736ba2250649ff8d3e556",
+          "version": "6.3.0"
+        }
+      },
+      {
+        "package": "Layoutless",
+        "repositoryURL": "https://github.com/DeclarativeHub/Layoutless.git",
+        "state": {
+          "branch": null,
+          "revision": "50ae5ab4cb9bf676c1901f4ba0f267f27e68d0a7",
+          "version": "0.4.3"
+        }
+      },
+      {
+        "package": "QuickLayout",
+        "repositoryURL": "https://github.com/huri000/QuickLayout",
+        "state": {
+          "branch": null,
+          "revision": "6be62decbe508d8fc8f9dbafc349d05bab03c38b",
+          "version": "3.0.1"
+        }
+      },
+      {
+        "package": "RSKPlaceholderTextView",
+        "repositoryURL": "https://github.com/ruslanskorb/RSKPlaceholderTextView.git",
+        "state": {
+          "branch": null,
+          "revision": "32c0ae1ca6ceedc12f99f5a8faa54b841da3bf60",
+          "version": "6.0.4"
+        }
+      },
+      {
+        "package": "Signals",
+        "repositoryURL": "https://github.com/artman/Signals.git",
+        "state": {
+          "branch": null,
+          "revision": "e792eb51a64f85d043d17f09f6323b803b9f73b8",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "SparkUI",
+        "repositoryURL": "https://github.com/rebeloper/SparkUI.git",
+        "state": {
+          "branch": null,
+          "revision": "7bf77ee759c03cf49790ded515aeea35f10c1f8b",
+          "version": "0.12.36"
+        }
+      },
+      {
+        "package": "SwiftEntryKit",
+        "repositoryURL": "https://github.com/huri000/SwiftEntryKit.git",
+        "state": {
+          "branch": null,
+          "revision": "c2d42574e4fe4e1f9719843f35add7922942a16b",
+          "version": "1.2.7"
+        }
+      },
+      {
+        "package": "UIFontComplete",
+        "repositoryURL": "https://github.com/Nirma/UIFontComplete.git",
+        "state": {
+          "branch": null,
+          "revision": "28959719e8078c3a9cc359cb85589016b57f1fd4",
+          "version": "4.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,12 @@
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "1xK-G4-Bwg"; */
+"1xK-G4-Bwg.title" = "Search";
+
+/* Class = "UILabel"; text = " Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label   Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label"; ObjectID = "746-wn-f6n"; */
+"746-wn-f6n.text" = " Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label   Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label  Label Label Label Label Label Label";
+
+/* Class = "UIButton"; normalTitle = "x"; ObjectID = "QQR-AO-uas"; */
+"QQR-AO-uas.normalTitle" = "x";
+
+/* Class = "UIButton"; normalTitle = "M"; ObjectID = "zF2-z6-Lq4"; */
+"zF2-z6-Lq4.normalTitle" = "M";

@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0677C6142657F97200298F10 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677C6132657F97200298F10 /* SecondVC.swift */; };
+		0677C61A2657FACC00298F10 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677C6192657FACC00298F10 /* AnimationManager.swift */; };
 		06954C282657F57300B59AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C272657F57300B59AB7 /* AppDelegate.swift */; };
 		06954C2A2657F57300B59AB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C292657F57300B59AB7 /* SceneDelegate.swift */; };
-		06954C2C2657F57300B59AB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C2B2657F57300B59AB7 /* ViewController.swift */; };
+		06954C2C2657F57300B59AB7 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C2B2657F57300B59AB7 /* FirstVC.swift */; };
 		06954C2F2657F57300B59AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06954C2D2657F57300B59AB7 /* Main.storyboard */; };
 		06954C312657F57500B59AB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06954C302657F57500B59AB7 /* Assets.xcassets */; };
 		06954C342657F57500B59AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06954C322657F57500B59AB7 /* LaunchScreen.storyboard */; };
 		06954C3F2657F57500B59AB7 /* AnimatedCustomTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C3E2657F57500B59AB7 /* AnimatedCustomTransitionTests.swift */; };
 		06954C4A2657F57500B59AB7 /* AnimatedCustomTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06954C492657F57500B59AB7 /* AnimatedCustomTransitionUITests.swift */; };
+		06E5E80B265833F6003970CE /* Hero in Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E80A265833F6003970CE /* Hero */; };
+		06E5E80C265833F6003970CE /* Hero in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E80A265833F6003970CE /* Hero */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		06E5E812265837C4003970CE /* SparkUI in Frameworks */ = {isa = PBXBuildFile; productRef = 06E5E811265837C4003970CE /* SparkUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +39,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		06E5E80D265833F6003970CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06E5E80C265833F6003970CE /* Hero in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0677C6132657F97200298F10 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		0677C6192657FACC00298F10 /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
+		0677C62F26581B7100298F10 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		06954C242657F57300B59AB7 /* AnimatedCustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06954C272657F57300B59AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06954C292657F57300B59AB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		06954C2B2657F57300B59AB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06954C2B2657F57300B59AB7 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		06954C2E2657F57300B59AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06954C302657F57500B59AB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06954C332657F57500B59AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06E5E812265837C4003970CE /* SparkUI in Frameworks */,
+				06E5E80B265833F6003970CE /* Hero in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0677C6182657FA9C00298F10 /* AnimatedTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0677C6192657FACC00298F10 /* AnimationManager.swift */,
+			);
+			path = AnimatedTransition;
+			sourceTree = "<group>";
+		};
 		06954C1B2657F57300B59AB7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +131,10 @@
 		06954C262657F57300B59AB7 /* AnimatedCustomTransition */ = {
 			isa = PBXGroup;
 			children = (
-				06954C272657F57300B59AB7 /* AppDelegate.swift */,
-				06954C292657F57300B59AB7 /* SceneDelegate.swift */,
-				06954C2B2657F57300B59AB7 /* ViewController.swift */,
-				06954C2D2657F57300B59AB7 /* Main.storyboard */,
-				06954C302657F57500B59AB7 /* Assets.xcassets */,
-				06954C322657F57500B59AB7 /* LaunchScreen.storyboard */,
+				06954C5A2657F58000B59AB7 /* App */,
+				06954C5F2657F5AB00B59AB7 /* Scenes */,
+				06954C5E2657F58F00B59AB7 /* Resources */,
+				0677C6182657FA9C00298F10 /* AnimatedTransition */,
 				06954C352657F57500B59AB7 /* Info.plist */,
 			);
 			path = AnimatedCustomTransition;
@@ -128,6 +158,34 @@
 			path = AnimatedCustomTransitionUITests;
 			sourceTree = "<group>";
 		};
+		06954C5A2657F58000B59AB7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				06954C272657F57300B59AB7 /* AppDelegate.swift */,
+				06954C292657F57300B59AB7 /* SceneDelegate.swift */,
+				06954C322657F57500B59AB7 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		06954C5E2657F58F00B59AB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				06954C302657F57500B59AB7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		06954C5F2657F5AB00B59AB7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				06954C2D2657F57300B59AB7 /* Main.storyboard */,
+				06954C2B2657F57300B59AB7 /* FirstVC.swift */,
+				0677C6132657F97200298F10 /* SecondVC.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,12 +196,17 @@
 				06954C202657F57300B59AB7 /* Sources */,
 				06954C212657F57300B59AB7 /* Frameworks */,
 				06954C222657F57300B59AB7 /* Resources */,
+				06E5E80D265833F6003970CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AnimatedCustomTransition;
+			packageProductDependencies = (
+				06E5E80A265833F6003970CE /* Hero */,
+				06E5E811265837C4003970CE /* SparkUI */,
+			);
 			productName = AnimatedCustomTransition;
 			productReference = 06954C242657F57300B59AB7 /* AnimatedCustomTransition.app */;
 			productType = "com.apple.product-type.application";
@@ -213,8 +276,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 06954C1B2657F57300B59AB7;
+			packageReferences = (
+				06E5E809265833F6003970CE /* XCRemoteSwiftPackageReference "Hero" */,
+				06E5E810265837C4003970CE /* XCRemoteSwiftPackageReference "SparkUI" */,
+			);
 			productRefGroup = 06954C252657F57300B59AB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06954C2C2657F57300B59AB7 /* ViewController.swift in Sources */,
+				0677C61A2657FACC00298F10 /* AnimationManager.swift in Sources */,
+				06954C2C2657F57300B59AB7 /* FirstVC.swift in Sources */,
 				06954C282657F57300B59AB7 /* AppDelegate.swift in Sources */,
+				0677C6142657F97200298F10 /* SecondVC.swift in Sources */,
 				06954C2A2657F57300B59AB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +370,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				06954C2E2657F57300B59AB7 /* Base */,
+				0677C62F26581B7100298F10 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -437,7 +510,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B3B9UDWN3P;
+				DEVELOPMENT_TEAM = Y699PM52F2;
 				INFOPLIST_FILE = AnimatedCustomTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +529,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B3B9UDWN3P;
+				DEVELOPMENT_TEAM = Y699PM52F2;
 				INFOPLIST_FILE = AnimatedCustomTransition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -593,6 +666,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06E5E809265833F6003970CE /* XCRemoteSwiftPackageReference "Hero" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HeroTransitions/Hero.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
+		06E5E810265837C4003970CE /* XCRemoteSwiftPackageReference "SparkUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/SparkUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.36;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06E5E80A265833F6003970CE /* Hero */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06E5E809265833F6003970CE /* XCRemoteSwiftPackageReference "Hero" */;
+			productName = Hero;
+		};
+		06E5E811265837C4003970CE /* SparkUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06E5E810265837C4003970CE /* XCRemoteSwiftPackageReference "SparkUI" */;
+			productName = SparkUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 06954C1C2657F57300B59AB7 /* Project object */;
 }
